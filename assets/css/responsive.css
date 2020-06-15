@@ -1,0 +1,414 @@
+
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (max-width: 991px) {
+
+  
+
+}
+@media screen and (min-width: 992px) {
+  
+}
+@media only screen and (max-width: 991px) and (min-width: 576px) {
+
+ 
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container-fluid {
+    width: 95% !important;
+  }
+   /*--------------Header----------------*/
+   .navbar .navbar-brand {
+    margin-left: 0;
+  }
+  .navbar-light .navbar-toggler {
+    color: rgb(156, 12, 26) !important;
+    border-color: rgb(156, 12, 26);
+    outline: 0;
+    box-shadow: none;
+    font-size: 16px;
+  }
+  .navbar ul li {
+    padding: 0;
+  }
+   /*--------------Banner----------------*/
+   .banner .carousel-item img {
+    height: 500px;
+  }
+   .bus-ticket {
+    width: 50%;
+    height: 500px;
+  }
+  .bus-ticket .title2 {
+    margin-left: 30px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  .bus-ticket form {
+    width: 84%;
+    margin-left: 30px;
+  }
+  .carousel-control-next .right-arrow {
+    right: 30px;
+  }
+  .carousel-control-prev .left-arrow {
+    right: -450%;
+  }
+    /*--------------Banner----------------*/
+    .footer-bottom p {
+      font-size: 20px;
+      text-align: center;
+      padding-bottom: 7px;
+    }
+    .d-flex.justify-content-end {
+      justify-content: center !important;
+    }
+    .nav-item.first-li-item {
+      margin-bottom: 5px;
+    }
+    .codeware {
+      margin-left: -10px;
+    }
+ 
+}
+
+@media screen and (max-width: 767px) {
+  .container-fluid {
+    width: 100% !important;
+  }
+  p {
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+    /*--------------header----------------*/
+    .navbar-light .navbar-toggler {
+      color: rgb(156, 12, 26) !important;
+      border-color: rgb(156, 12, 26);
+      outline: 0;
+      box-shadow: none;
+      font-size: 16px;
+    }
+    .header-top .top-right .social-icon a {
+      font-size: 14px;
+      padding: 0 3px;
+    }
+    .header-top .top-left img {
+      height: 20px;
+      width: 20px;
+      margin-top: 3px;
+    }
+    .header-top .top-right .language {
+      font-size: 14px;
+    }
+    .header-top .top-right .social-icon {
+      margin-right: 10px;
+    }
+    .navbar .navbar-brand {
+      margin-left: 0;
+    }
+    .navbar ul li {
+      padding: 0;
+    }
+    .navbar ul li a {
+      font-size: 16px;
+    }
+    /*--------------Banner----------------*/
+    .banner .carousel-item img {
+      height: 350px;
+    }
+    .carousel-control-prev .left-arrow {
+      padding: 3px 17px;
+      position: absolute;
+      bottom: 15px;
+      font-size: 14px;
+      border: 2px solid #000;
+      margin-right: -20px;
+      border-radius: 5px;
+    }
+    .carousel-control-next .right-arrow {
+      padding: 3px 17px;
+      position: absolute;
+      bottom: 15px;
+      right: 10px;
+      font-size: 14px;
+      border: 2px solid #000;
+      border-radius: 5px;
+    }
+    .bus-ticket {
+      position: absolute;
+      width: 100%;
+      height: 350px;
+      border-bottom-right-radius: 23%;
+      box-shadow: 0px 20px 12px -15px #0000005c;
+      visibility: hidden;
+    }
+    .title1 {
+      position: absolute;
+      top: 18px;
+      left: 15px;
+      font-size: 20px;
+      display: block;
+      z-index: 1;
+      background: #9c0c1a;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      border: 0;
+      outline: none !important;
+      box-shadow: none !important;
+    }
+    .title1:hover{
+      background-color: #000;
+      color: #fff;
+      transition: all ease 0.3s;
+    }
+    .bus-ticket .title2 {
+      margin-left: 15px;
+      padding-top: 5px;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    .bus-ticket form {
+      width: 85%;
+      margin-left: 15px;
+    }
+    .bus-ticket label {
+      font-size: 16px;
+    }
+    .form-control::placeholder {
+      font-size: 14px;
+    }
+    /*--------------Serrvice----------------*/
+    .title-h2 {
+      font-size: 30px;
+      font-weight: 600;
+      letter-spacing: -1px;
+      word-spacing: 0px;
+      text-transform: uppercase;
+    }
+    .service-section .service-wrapper .single-service {
+      width: 48%;
+      margin: 5px 0;
+      text-align: center;
+      border-radius: 5px;
+      min-height: 200px;
+      margin: 5px;
+    }
+    .line-border {
+      width: 190px;
+    }
+    /*--------------Welcome title----------------*/
+    .large-welcome-section {
+      background-attachment: scroll;
+      background-size: auto;
+      margin-top: 0;
+      width: 100%;
+      background-position: center center;
+    }
+    .large-welcome-section .title-wrapper {
+      padding: 30px 0;
+    }
+    .large-welcome-section .title-wrapper .large-title {
+      font-size: 35px;
+      letter-spacing: 0;
+      font-weight: 600;
+    }
+    .large-welcome-section .title-wrapper .medium-title {
+      font-size: 25px;
+      letter-spacing: 0;
+      font-weight: 600;
+    }
+    .large-welcome-section .title-wrapper .small-title {
+      font-size: 20px;
+      letter-spacing: 0;
+      font-weight: 600;
+    }
+    /*--------------Bus Route----------------*/
+    .bus-route-section .col-lg-4.col-md-4.col-sm-6.col-12 {
+      padding: 0;
+    }
+    .bus-route-section .single-route h3 {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 10px 0;
+    }
+    .bus-route-section .single-route {
+      margin-bottom: 0px !important;
+      margin: 0 5px;
+    }
+    .bus-route-section .more-btn-div {
+      text-align: center;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+    .bus-route-section .more-btn-div .more-btn {
+      padding: 15px 55px;
+      font-size: 25px;
+      font-weight: 600;
+      border-radius: 5px;
+    }
+    /*--------------Counter----------------*/
+    .sales-count-section h3 {
+      font-size: 20px;
+    }
+    .sales-count-section .counter-head {
+      font-size: 35px;
+    }
+    .sales-count-section p {
+      font-weight: normal;
+      font-size: 16px;
+    }
+    .sales-count-section .counter-wrapper .single-count {
+      margin-top: 7px;
+    }
+    /*--------------Footer----------------*/
+    .footer-bottom p {
+      font-size: 20px;
+      text-align: left;
+    }
+    .d-flex.justify-content-end {
+      justify-content: center !important;
+    }
+    .codeware {
+      font-size: 14px;
+      margin-left: -10px;
+    }
+    footer p {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    footer img {
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    .nav-item.first-li-item {
+      margin-bottom: 0px;
+    }
+    .footer-bottom p {
+      font-size: 14px;
+      padding-bottom: 6px;
+      text-align: center;
+    }
+    footer .navbar-nav{
+      margin-bottom: 10px;
+    }
+  
+}
+
+@media screen and (max-width: 600px) {
+  /*--------------Banner----------------*/
+  .banner .carousel-item img {
+    height: 300px;
+  }
+  .carousel-control-prev .left-arrow {
+    margin-right: 6px;
+  }
+  .bus-ticket {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    border-bottom-right-radius: 23%;
+    box-shadow: 0px 20px 12px -15px #0000005c;
+    visibility: hidden;
+  }
+
+  /*--------------Serrvice----------------*/
+ 
+  .service-section .service-wrapper .single-service {
+    width: 100%;
+    margin: 5px 0;
+  }
+  /*--------------Bus Route----------------*/
+  .bus-route-section .single-route {
+    margin-bottom: 0px !important;
+    margin: 0 auto;
+  }
+  .bus-route-section .col-lg-4.col-md-6.col-sm-6.col-12 {
+    padding: 0 !important;
+  }
+  .bus-route-section .more-btn-div {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .bus-route-section .more-btn-div .more-btn {
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  /*--------------Footer----------------*/
+  .footer-bottom p {
+    font-size: 14px;
+    padding-bottom: 0px;
+    text-align: left;
+  }
+  .d-flex.justify-content-end {
+    justify-content: start !important;
+  }
+  footer p {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  footer img {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 464px) {
+  /*--------------welcome-area----------------*/
+  
+}
+
+@media screen and (max-width: 1024px) {
+  /*--------------welcome-area----------------*/
+ 
+
+}
+@media screen and (min-width: 1024px) {
+  /*--------------welcome area----------------*/
+ 
+}
+
+@media screen and (max-width: 991px) {
+  /*------padding--------*/
+  
+  /*------header--------*/
+ 
+  /*--------------about----------------*/
+
+  
+}
+
+@media screen and (max-width: 600px) {
+  /*--------------Menu----------------*/
+ 
+}
+@media screen and (max-width: 385px) {
+  /*--------------personal-detail----------------*/
+
+}
+
+@media screen and (max-width: 414px) {
+  /*--------------Menu----------------*/
+
+}
+
+@media screen and (max-width: 375px) {
+  /*--------------Menu----------------*/
+  
+}
+@media screen and (max-width: 360px) {
+  /*--------------Menu----------------*/
+
+}
+@media screen and (max-width: 338px) {
+  /*--------------personal-detail----------------*/
+
+}
